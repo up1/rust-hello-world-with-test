@@ -1,3 +1,5 @@
+pub mod hello;
+
 fn main() {
-    println!("Hello, world!");
+    println!("{}", hello::say_hi("somkiat".to_string()));
 }
